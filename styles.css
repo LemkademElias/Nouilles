@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* ABOUT */
+#about-section h4 {
+    margin-top: 0;
+}
+
+#about-section img {
+    width: 350px;
+    height: 350px;
+    padding-right: 30px;
+    padding-left: 100px;
+}
+
+#about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 6vw;
+    margin-top: -50px;
+}
+
+#about-section button {
+    border: 1px solid rgb(96, 96, 194);
+    background-color: white;
+    color: rgb(96, 96, 194);
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    margin-top: 4vh;
+}
