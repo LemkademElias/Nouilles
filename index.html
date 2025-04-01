@@ -1,14 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nouilles</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-    </head>    
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouilles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
 <body>
-    
+    <!-- NAV -->
+    <nav>
+        <div>
+            <h2>Nouilles</h2>
+        </div>
+        
+        <div class="nav-links">
+            <a href="./index.htm"><p>Home</p></a>
+            <a href="#about-section"><p>About</p></a>
+            <a href="#portfolio-section"><p>Portfolio</p></a>
+            <a href="#testimonial-section"><p>Testimonials</p></a>
+            <a href="#blog-section"><p>Blog</p></a>
+            <a href="#contact-section"><p>Contact</p></a>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <h1 class="gray-text">HI!</h1>
+        <h2 class="gray-text">HI!</h2>
+        <h1>I am ze <br> Barber</h1>
+        <h3>FRONTEND WEB DESIGNER</h3>
+        <a href=""><button class="visit-btn">Visit My Works</button></a>
+    </header>
+
+    <!-- ABOUT ME -->
+    <section id="about-section">
+        <div>
+            <img src="./images/man.png" alt="">
+        </div>
+        <div class="about-text-container">
+            <h4>Who Am I ?</h4>
+            <h2>About me </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim aperiam numquam saepe, doloribus animi magnam magni laudantium assumenda ducimus similique ab quod id voluptatum veritatis, dolore in quas debitis praesentium at voluptas ipsum. Laudantium, explicabo magni natus modi, dolor doloremque, neque nobis id fuga itaque libero qui voluptatum fugiat vitae deserunt ratione omnis dolorum reprehenderit eligendi. Animi officiis nesciunt laboriosam dolore corrupti sapiente iste reprehenderit omnis modi, enim sit eligendi.</p>
+            <button class="download-btn">Download CV</button>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services-section">
+        <h4>What I Do ?</h4>
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service-box adip">
+                <img src="./images/pencil-case.svg" alt="">
+                <p>Adipisicing</p>
+            </div>
+            <div class="service-box">
+                <img src="./images/responsive.svg" alt="">
+                <p>Sapiente</p>
+            </div>
+            <div class="service-box">
+                <img src="./images/toolbox.svg" alt="">
+                <p>Placeat</p>
+            </div>
+            <div class="service-box">
+                <img src="./images/analytics.svg" alt="">
+                <p>Lusto</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio-section">
+        <h4>What I Did</h4>
+        <h2>Portfolio</h2>
+        <div id="portfolio-container">
+            <div class="image-container">
+                <img class="portfolio-image" src="./images/folio-1.jpg" alt="">
+                <div class="overlay-effect">
+                    <h2>Web Designing</h2>
+                    <p>Category: Web Templates</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="portfolio-image" src="./images/folio-2.jpg" alt="">
+                <div class="overlay-effect">
+                    <h2>Web Designing</h2>
+                    <p>Category: Web Templates</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="portfolio-image" src="./images/folio-3.jpg" alt="">
+                <div class="overlay-effect">
+                    <h2>Web Designing</h2>
+                    <p>Category: Web Templates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing-section">
+        <h4>How Much I Charge ?</h4>
+        <h2>My Pricing</h2>
+        <div class="card-container">
+            <div class="price-card">
+                <img src="./images/scooter.svg" alt="">
+                <h3>Free</h3>
+                <p>accusamus reprehenderit</p><br>
+                <p>provident dolorem</p><br>
+                <p>quos neque</p><br>
+                <p>fugiat quibusdam</p>
+                <i class="fa-solid fa-x"></i><br>
+                <i class="fa-solid fa-x"></i>
+                <p class="price-tag"><span>$</span>0.00/Month</p>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+            <div class="price-card">
+                <img src="./images/shipped.svg" alt="">
+                <h3>Basic</h3>
+                <p>accusamus reprehenderit</p><br>
+                <p>provident dolorem</p><br>
+                <p>quos neque</p><br>
+                <p>fugiat quibusdam</p><br>
+                <p>accusamus laboriosam</p>
+                <i class="fa-solid fa-x"></i>
+                <p class="price-tag"><span>$</span>9.99/Month</p>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+            <div class="price-card">
+                <img src="./images/startup.svg" alt="">
+                <h3>Premium</h3>
+                <p>accusamus reprehenderit</p><br>
+                <p>provident dolorem</p><br>
+                <p>quos neque</p><br>
+                <p>fugiat quibusdam</p><br>
+                <p>accusamus laboriosam</p><br>
+                <p>inventore omnis</p><br>
+                <p class="price-tag"><span>$</span>99.99/Month</p>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK WITH ME -->
+    <section class="work-section">
+        <div>
+            <p class="bold-text">Want to work with me?</p><br>
+            <p>Always feel Free to Contact & Hire me</p>
+        </div>
+        <div class="btn-container">
+            <button class="hire-btn">Hire Me</button>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonial-section">
+        <h4>What Think Client About Me ?</h4>
+        <h2>Testimonials</h2>
+        <div class="review-container">
+            <div class="review-box">
+                <img class="round-image" src="./images/avatar2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum necessitatibus placeat sint nihil fugit deleniti repudiandae similique obcaecati ullam porro?</p><br>
+                    <p class="author-name">Emily Reb</p>
+                </div>
+            </div>
+            <div class="review-box">
+                <img class="round-image2" src="./images/avatar2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum necessitatibus placeat sint nihil fugit deleniti repudiandae similique obcaecati ullam porro?</p><br>
+                    <p class="author-name">Emily Reb</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog-section">
+        <h4>Recent Post?</h4>
+        <h2>Blog</h2>
+        <div class="main-container">
+            <div class="post-box">
+                <div class="photo-container">
+                    <img src="./images/img-1.jpg" alt="">
+                </div>
+                <div>
+                    <div class="info-box">
+                        <h3>Consectetur adipisicing elit</h3>
+                    </div>
+                    <div class="info-post">
+                        <p>By: Admin</p>
+                        <i class="fa-regular fa-heart heart-icon"></i><p>234</p>
+                        <i class="fa-regular fa-comment comment-icon"></i><p>123</p>
+                    </div>
+                    <div class="text-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quibusdam cupiditate fugit, laudantium distinctio ipsa quos voluptates explicabo laboriosam vero saepe porro eaque. Dolor sapiente, molestiae assumenda accusantium sunt iure!</p>
+                        <p class="bold-text">Necessitatibus nihib impedit! Ex nist eveniet, dolor aliquid consequuntur repudiandae</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, vel! Odio dolorem possimus dolor earum, dignissimos officia autem assumenda vitae porro. Repellat eum alias repellendus, deserunt aperiam distinctio.</p>
+                        <a href="more"><p>Read more >></p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-box">
+                <div class="photo-container">
+                    <img src="./images/img-2.jpg" alt="">
+                </div>
+                <div class="info-box">
+                    <h3>Explicabo illo</h3>
+                </div>
+                <div class="info-post">
+                    <p>By: Admin</p>
+                    <i class="fa-regular fa-heart heart-icon"></i><p>456</p>
+                    <i class="fa-regular fa-comment comment-icon"></i><p>264</p>
+                </div>
+                <div class="text-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam, eligendi dolores quisquam deserunt quam numquam, maxime rerum corporis impedit obcaecati est qui, porro mollitia nesciunt in earum. A, quod! Vero quibusdam earum fugiat reiciendis eos soluta voluptatum eum suscipit, culpa ipsa? Expedita commodi ipsum, consequatur facere ipsa, necessitatibus ab reiciendis sit, aperiam excepturi amet numquam ipsam deleniti laborum officia exercitationem repellendus corrupti et in. Adipisci sunt temporibus perspiciatis magnam.</p>
+                    <a href="more"><p>Read more >></p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-section">
+        <h4>How can you communicate?</h4>
+        <h2>Contact Me</h2>
+        <form action="">
+            <textarea cols="80" rows="8" name="msg" class="msg-area" placeholder="Write Something"></textarea>
+        </form>
+        <button class="send-message-btn">Send Message</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="copyright">Copyright 2022 &copy;DevCRUD </p>
+        <div class="social-icons">
+            <div class="icon-container">
+                <a href="https://www.facebook.com/"><i class="logo fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="icon-container">
+                <a href="https://x.com/"><i class="logo fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="icon-container">
+                <a href="https://www.google.com/"><i class="logo fa-brands fa-google-plus-g"></i></a>
+            </div>
+            <div class="icon-container">
+                <a href="https://fr.pinterest.com/"><i class="logo fa-brands fa-pinterest"></i></a>
+            </div>
+            <div class="icon-container">
+                <a href="https://www.instagram.com/"><i class="logo fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="icon-container">
+                <a href="https://store.google.com/fr/product/chromecast_google_tv?hl=fr&pli=1"><i class="logo fa-brands fa-chromecast"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LINK FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/928f848d89.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
